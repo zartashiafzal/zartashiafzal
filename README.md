@@ -3,7 +3,6 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=zartashiafzal&label=Profile%20views&color=0e75b6&style=flat" alt="zartashiafzal" /> </p>
 <!-- Add this HTML code to your README.md file -->
-
 ### Blogs posts
 <!-- BLOG-POST-LIST:START -->
 <!-- BLOG-POST-LIST:END -->
@@ -21,42 +20,3 @@
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=zartashiafzal&show_icons=true&locale=en&layout=compact" alt="zartashiafzal" /></p>
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=zartashiafzal&show_icons=true&locale=en" alt="zartashiafzal" /></p>
-
-<!-- Dynamic Typing Effect -->
-<p id="dynamic-text"></p>
-
-<script>
-  const text = "Welcome to my GitHub profile!"; // Replace this with your desired text
-  let index = 0;
-
-  function type() {
-    const element = document.getElementById("dynamic-text");
-    element.innerHTML += text.charAt(index);
-    index++;
-
-    if (index < text.length) {
-      setTimeout(type, 100); // Adjust the timeout for typing speed
-    }
-  }
-
-  type();
-</script>
-
-<style>
-  #dynamic-text {
-    border-right: 1px solid #000;
-    overflow: hidden;
-    white-space: nowrap;
-    font-size: 1.5em;
-    animation: blink-caret 0.75s step-end infinite;
-  }
-
-  @keyframes blink-caret {
-    from, to {
-      border-color: transparent;
-    }
-    50% {
-      border-color: black;
-    }
-  }
-</style>
